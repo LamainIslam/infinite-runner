@@ -6,8 +6,6 @@ public class LeftRightMovement : MonoBehaviour
 {
     public float rotateBy;
     private float rotated;
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.D)) 
