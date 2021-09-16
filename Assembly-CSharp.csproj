@@ -59,10 +59,10 @@
     <Compile Include="Assets\Scripts\GroundManger.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\LeftRightMovement.cs" />
+    <Compile Include="Assets\Scripts\obstacleSpawaner.cs" />
     <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
-    <Compile Include="Assets\Scripts\obstacleSpawaner.cs" />
+    <Compile Include="Assets\Scripts\ObstacleMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

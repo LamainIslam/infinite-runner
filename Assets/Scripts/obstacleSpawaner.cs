@@ -15,8 +15,8 @@ public class obstacleSpawaner : MonoBehaviour
         xrot = Random.Range(-10, 10);
         yrot = Random.Range(-10, 10);
         zrot = Random.Range(0, 360);
-        GameObject clone = Instantiate(obstacle[randomIndex], transform.position, transform.rotation);
+        GameObject clone = Instantiate(obstacle[randomIndex], transform.position, transform.rotation,transform.parent);
         clone.transform.Rotate(new Vector3(xrot, yrot, zrot));
+        Destroy(gameObject);
     }
-
 }
