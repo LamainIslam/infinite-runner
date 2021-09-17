@@ -8,8 +8,8 @@ public class GroundManger : MonoBehaviour
     public GameObject player;
     public GameObject manager;
     public Transform parent;
-    public float distance;
-    public float maxSpawnDistanceFromPlayer = 500f;
+    private float distance;
+    private float maxSpawnDistanceFromPlayer = 1000f;
     public bool spawned = false;
     public int randomIndex;
     public float zrot;

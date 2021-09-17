@@ -159,6 +159,7 @@ GameObject:
   - component: {fileID: 814223839949538074}
   - component: {fileID: 3217895658241931216}
   - component: {fileID: 4281188959259904777}
+  - component: {fileID: 1009387295535286554}
   m_Layer: 0
   m_Name: tube 1 1
   m_TagString: Untagged
@@ -175,7 +176,7 @@ Transform:
   m_GameObject: {fileID: 4010666013500085765}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalScale: {x: 150, y: 150, z: 400}
   m_Children:
   - {fileID: 5754652990222992438}
   - {fileID: 6765517475970781768}
@@ -249,6 +250,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: a4bf8a19fc8bbdb4dac3e5bbdadfadcd, type: 3}
+--- !u!114 &1009387295535286554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4010666013500085765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed28f83765614c4ea576103e8d099e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 0
+  poped: 0
 --- !u!1 &6721461011081735902
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,11 +310,10 @@ MonoBehaviour:
   groundPieces:
   - {fileID: 4010666013500085765}
   - {fileID: 294333049104418493, guid: 8f345302927b94c4b80aa6a184837fea, type: 3}
+  - {fileID: 856583142001169923, guid: 7b1788197c8ab554591ba71571a1bce9, type: 3}
   player: {fileID: 0}
   manager: {fileID: 0}
   parent: {fileID: 0}
-  distance: 0
-  maxSpawnDistanceFromPlayer: 500
   spawned: 0
   randomIndex: 0
   zrot: 0
