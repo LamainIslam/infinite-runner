@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Manager
   - Obstacle
+  - Cube-obs
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - obs
   - Water
   - UI
   - 

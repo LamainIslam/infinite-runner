@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165754890248074678}
   m_LocalRotation: {x: 1.776357e-15, y: -8.881785e-16, z: -0.4589553, w: 0.8884594}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4387473409686621375}
@@ -38,55 +38,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165754890248074678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cf1bb5ab00934743b489300fb3b9b8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstacle:
-  - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
-  randomIndex: 0
-  xrot: 0
-  yrot: 0
-  zrot: 0
---- !u!1 &2296949719833600558
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 759996435434722630}
-  - component: {fileID: 7662137204350075268}
-  m_Layer: 0
-  m_Name: obstacleSpawaner (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &759996435434722630
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2296949719833600558}
-  m_LocalRotation: {x: -0, y: -0, z: 0.46583858, w: -0.88486975}
-  m_LocalPosition: {x: 3.7557166e-16, y: 0, z: -0.049999993}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4387473409686621375}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 304.471}
---- !u!114 &7662137204350075268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2296949719833600558}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cf1bb5ab00934743b489300fb3b9b8e, type: 3}
@@ -123,7 +74,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3027178136519273858}
   m_LocalRotation: {x: 8.881784e-16, y: -0, z: 0.73539406, w: 0.6776398}
-  m_LocalPosition: {x: -2.463772e-16, y: 0, z: 0.09999999}
+  m_LocalPosition: {x: -2.463772e-16, y: 0, z: 0.075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4387473409686621375}
@@ -176,14 +127,12 @@ Transform:
   m_GameObject: {fileID: 4010666013500085765}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 150, y: 150, z: 400}
+  m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children:
   - {fileID: 5754652990222992438}
   - {fileID: 6765517475970781768}
   - {fileID: 5700318603137422287}
   - {fileID: 6453877476017551323}
-  - {fileID: 759996435434722630}
-  - {fileID: 7838943430129614998}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -318,55 +267,6 @@ MonoBehaviour:
   spawned: 0
   randomIndex: 0
   zrot: 0
---- !u!1 &8731873964162620190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7838943430129614998}
-  - component: {fileID: 4180370360696789703}
-  m_Layer: 0
-  m_Name: obstacleSpawaner (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7838943430129614998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8731873964162620190}
-  m_LocalRotation: {x: -0, y: 8.881784e-16, z: -0.41076654, w: -0.91174054}
-  m_LocalPosition: {x: -7.431757e-16, y: 0, z: -0.09999999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4387473409686621375}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -311.494}
---- !u!114 &4180370360696789703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8731873964162620190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cf1bb5ab00934743b489300fb3b9b8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstacle:
-  - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
-  randomIndex: 0
-  xrot: 0
-  yrot: 0
-  zrot: 0
 --- !u!1 &8775948481218980983
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8775948481218980983}
   m_LocalRotation: {x: 1.776357e-15, y: -8.881785e-16, z: 0.6701713, w: 0.7422064}
-  m_LocalPosition: {x: -1.1017872e-16, y: 0, z: 0.049999993}
+  m_LocalPosition: {x: -1.1017872e-16, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4387473409686621375}

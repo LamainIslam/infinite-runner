@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;//to be able to change the scenes 
 using UnityEngine.UI;
 
-public class stateManager : MonoBehaviour
+public class StateManager : MonoBehaviour
 {
-    public static bool GameIsPaused = false;//so the game knows if we are pausing or resumeing
+    public static bool isPaused = false;//so the game knows if we are pausing or resumeing
     public GameObject pauseMenuUI;
+    public GameObject EndMenuUI;
     //public GameObject pauseBNT;
     //public Text pauseBNT;
 
@@ -16,47 +17,47 @@ public class stateManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            /*if (GameIsPaused)
+            if (isPaused)
             {
                 Resume();
             }
             else
             {
                 Pause();
-            }*/
+            }
+            /*
             if (Input.GetKeyDown(KeyCode.Escape)) 
             { 
                 TogglePause();
 //                pauseBNT.text = GameIsPaused ? "X" : "Y";
-            }
+            }*/
         }
     }
 
-    //new code allows to make a pause button in the game UI
-    public void TogglePause()
+    /*public void TogglePause()
     {
-        GameIsPaused = !GameIsPaused; // invert
-        pauseMenuUI.SetActive(GameIsPaused);
-        Time.timeScale = GameIsPaused ? 0f : 1f;
+        isPaused = !isPaused; // invert
+        pauseMenuUI.SetActive(isPaused);
+        Time.timeScale = isPaused ? 0f : 1f;
         // this is like if (GameIsPaused) ? this value : otherwise this value;
-    }
-    /*public void Resume()
+    }*/
+    public void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        isPaused = false;
     }
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true;
-    }*/
+        isPaused = true;
+    }
 
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Menu");
     }
 
     public void QuitGame()
@@ -65,4 +66,10 @@ public class stateManager : MonoBehaviour
         Application.Quit();//close the game
     }
 
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Main");
+        EndMenuUI.SetActive(false);
+    }
 }
