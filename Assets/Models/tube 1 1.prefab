@@ -311,6 +311,7 @@ MonoBehaviour:
   - {fileID: 4010666013500085765}
   - {fileID: 294333049104418493, guid: 8f345302927b94c4b80aa6a184837fea, type: 3}
   - {fileID: 856583142001169923, guid: 7b1788197c8ab554591ba71571a1bce9, type: 3}
+  - {fileID: 380994944630702569, guid: 21e1b3e9e0de0f64590e26f2aae709e1, type: 3}
   player: {fileID: 0}
   manager: {fileID: 0}
   parent: {fileID: 0}
