@@ -200,8 +200,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\ShaderGraph\VFXShaderGraphPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\Utilities\pCache\BakeTool\PointCacheBakeTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\Models\Operators\Implementations\AABoxVolume.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\Models\Slots\Implementations\VFXSlotFloat2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\GraphView\Elements\Controllers\VFXFlowAnchorController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\Models\Slots\Implementations\VFXSlotFloat2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\Expressions\VFXExpressionColor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\Models\Operators\Implementations\ViewportToWorldPoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.4.0\Editor\GraphView\Views\Properties\VectorPropertiesRM.cs" />

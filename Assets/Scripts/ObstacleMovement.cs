@@ -19,6 +19,7 @@ public class ObstacleMovement : MonoBehaviour
         transform.Translate(0,0, -moveBy * Time.deltaTime);
     }
 }
-
-//FixedUpdate and Time.deltaTime take time into consideration
-//Time.deltaTime also make the make fair
+/*
+FixedUpdate and Time.deltaTime take time into consideration
+Time.deltaTime also make the make fair
+*/

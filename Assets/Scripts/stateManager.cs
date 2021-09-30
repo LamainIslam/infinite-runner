@@ -9,7 +9,7 @@ public class StateManager : MonoBehaviour
     public static bool isPaused = false;//so the game knows if we are pausing or resumeing
     public GameObject pauseMenuUI;
     public GameObject EndMenuUI;
-    //public GameObject pauseBNT;
+    public GameObject pauseBNT;
     //public Text pauseBNT;
 
     // Update is called once per frame
@@ -25,12 +25,12 @@ public class StateManager : MonoBehaviour
             {
                 Pause();
             }
-            /*
+            
             if (Input.GetKeyDown(KeyCode.Escape)) 
             { 
-                TogglePause();
-//                pauseBNT.text = GameIsPaused ? "X" : "Y";
-            }*/
+                //TogglePause();
+                //pauseBNT = isPaused ? "X" : "Y";
+            }
         }
     }
 

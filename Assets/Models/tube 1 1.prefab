@@ -45,6 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacle:
   - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
+  - {fileID: 6606098920569111886, guid: ea3afc3398d17754685c7ebbef1029cd, type: 3}
   randomIndex: 0
   xrot: 0
   yrot: 0
@@ -94,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacle:
   - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
+  - {fileID: 6606098920569111886, guid: ea3afc3398d17754685c7ebbef1029cd, type: 3}
   randomIndex: 0
   xrot: 0
   yrot: 0
@@ -113,7 +115,7 @@ GameObject:
   - component: {fileID: 1009387295535286554}
   m_Layer: 0
   m_Name: tube 1 1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -312,6 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacle:
   - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
+  - {fileID: 6606098920569111886, guid: ea3afc3398d17754685c7ebbef1029cd, type: 3}
   randomIndex: 0
   xrot: 0
   yrot: 0
