@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b59ceb182f254554780d34913a88eca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 1558931281180625094, guid: 99eefb05f8bbdc14a89500af440a4b9d, type: 3}
+  cube:
+  - {fileID: 1558931281180625094, guid: 99eefb05f8bbdc14a89500af440a4b9d, type: 3}
   raycastDistance: 50
   overlapBoxSize: 1
   spawnedObjectLayer:

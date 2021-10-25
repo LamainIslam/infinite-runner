@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CubeSpawner : MonoBehaviour
 {
-    public GameObject cube;
+    public GameObject[] cube;
     public float raycastDistance = 50f;
     public float overlapBoxSize = 1f;
     public LayerMask spawnedObjectLayer;
@@ -40,7 +40,7 @@ public class CubeSpawner : MonoBehaviour
     void pick(Vector3 positionToSpawn, Quaternion rotationToSpawn)
     {
         //int randomIndex = Random.Range(0, list.Length);
-        GameObject clone = Instantiate(cube, positionToSpawn, rotationToSpawn, transform.parent);
+        GameObject clone = Instantiate(cube[Random.Range(0, cube.Length)], positionToSpawn, rotationToSpawn, transform.parent);
         //GameObject clone = Instantiate(list[randomIndex], hit.point, spawnRotation);   
     }
 }

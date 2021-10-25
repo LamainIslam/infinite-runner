@@ -163,6 +163,7 @@ MonoBehaviour:
   obstacle:
   - {fileID: 6606098920569111886, guid: ea3afc3398d17754685c7ebbef1029cd, type: 3}
   - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
+  - {fileID: 1343953737009621587, guid: 3f0a5d299d4e106429269576f898b258, type: 3}
   randomIndex: 0
   xrot: 0
   yrot: 0
@@ -263,6 +264,9 @@ MonoBehaviour:
   obstacle:
   - {fileID: 6606098920569111886, guid: ea3afc3398d17754685c7ebbef1029cd, type: 3}
   - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
+  - {fileID: 1343953737009621587, guid: 3f0a5d299d4e106429269576f898b258, type: 3}
+  - {fileID: 4831920950672262714, guid: 297d3ad5387546043ac3c8c9c3eb431f, type: 3}
+  - {fileID: 4484947203763419687, guid: 6ce8d441624340447a55f2b48e02a2f6, type: 3}
   randomIndex: 0
   xrot: 0
   yrot: 0
@@ -363,6 +367,7 @@ MonoBehaviour:
   obstacle:
   - {fileID: 6606098920569111886, guid: ea3afc3398d17754685c7ebbef1029cd, type: 3}
   - {fileID: 5143724591844993383, guid: 3a75febb66e54a24a919120a6703522e, type: 3}
+  - {fileID: 1343953737009621587, guid: 3f0a5d299d4e106429269576f898b258, type: 3}
   randomIndex: 0
   xrot: 0
   yrot: 0

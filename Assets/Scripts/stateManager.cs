@@ -11,13 +11,19 @@ public class StateManager : MonoBehaviour
     public GameObject EndMenuUI;
     public GameObject pauseBNT;
     //public Text pauseBNT;
+    private DeathManager deathManager;
+
+    private void Start()
+    {
+        deathManager = FindObjectOfType<DeathManager>();
+    }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
+            if (isPaused && deathManager.isDead != true)
             {
                 Resume();
             }
@@ -25,12 +31,12 @@ public class StateManager : MonoBehaviour
             {
                 Pause();
             }
-            
+            /*
             if (Input.GetKeyDown(KeyCode.Escape)) 
             { 
-                //TogglePause();
-                //pauseBNT = isPaused ? "X" : "Y";
-            }
+                TogglePause();
+                pauseBNT = isPaused ? "X" : "Y";
+            }*/
         }
     }
 

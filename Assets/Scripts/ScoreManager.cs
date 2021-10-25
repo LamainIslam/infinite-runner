@@ -8,20 +8,25 @@ public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI score;
     public float pointIncreasedPerSecond;
-    private float scoreAmount;
+    public float scoreAmount = 0f;
     private float highScore;
     public float HighS;
 
+    private ObstacleMovement obstacleMovement;
+
     void Start()
     {
+        obstacleMovement = FindObjectOfType<ObstacleMovement>();
+
         scoreAmount = 0f;
-        pointIncreasedPerSecond = 1f;
+        pointIncreasedPerSecond = obstacleMovement.moveBy/170;
     }
 
     void Update()
     {
         score.text = "" + (int)scoreAmount;
         scoreAmount += pointIncreasedPerSecond * Time.deltaTime;
+        pointIncreasedPerSecond = obstacleMovement.moveBy / 170;
 
         if (highScore < scoreAmount)//only updates high Score if there is a new highScore(start)
         {
