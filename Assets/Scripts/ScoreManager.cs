@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI score;
     public float pointIncreasedPerSecond;
     public float scoreAmount = 0f;
-    private float highScore;
+    public float highScore;
     public float HighS;
 
     private ObstacleMovement obstacleMovement;
@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour
     {
         score.text = "" + (int)scoreAmount;
         scoreAmount += pointIncreasedPerSecond * Time.deltaTime;
-        pointIncreasedPerSecond = obstacleMovement.moveBy / 170;
+        pointIncreasedPerSecond = (obstacleMovement.moveBy / 170);
 
         if (highScore < scoreAmount)//only updates high Score if there is a new highScore(start)
         {

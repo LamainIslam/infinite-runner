@@ -21,9 +21,9 @@ public class StateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && deathManager.isDead != true)
         {
-            if (isPaused && deathManager.isDead != true)
+            if (isPaused)
             {
                 Resume();
             }

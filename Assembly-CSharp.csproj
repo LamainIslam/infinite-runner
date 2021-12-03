@@ -60,21 +60,23 @@
     <Compile Include="Assets\Scripts\ObstacleMovement.cs" />
     <Compile Include="Assets\Scripts\SpinObs.cs" />
     <Compile Include="Assets\Scripts\MMManager.cs" />
+    <Compile Include="Assets\Scripts\HighScore.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\DeathManager.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
+    <Compile Include="Assets\Scripts\RemovePoint.cs" />
     <Compile Include="Assets\Scripts\SpingObs.cs" />
     <Compile Include="Assets\Scripts\PlayerJump.cs" />
     <Compile Include="Assets\Scripts\ObstacleSpawaner.cs" />
     <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Destroyer.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
-    <Compile Include="Assets\Scripts\CubeSpawner.cs" />
     <Compile Include="Assets\Scripts\PointPieceAnimation.cs" />
-    <Compile Include="Assets\Scripts\RemovePoint.cs" />
     <Compile Include="Assets\Scripts\AddPoint.cs" />
+    <Compile Include="Assets\Scripts\CubeSpawner.cs" />
+    <Compile Include="Assets\Scripts\ScoreTableDisplayer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
